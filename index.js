@@ -51,3 +51,14 @@ fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
         `
     })
     .catch(err => console.log(err))
+
+const getCurrentTime = () => {
+    const now = new Date();
+    const hours = now.getHours();
+    const minutes = now.getMinutes();
+    const formattedTime = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
+
+    document.querySelector('.time').textContent = formattedTime;
+}
+
+setInterval(getCurrentTime, 1000)
