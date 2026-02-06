@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Dashboard",
+  "version": "1.0.0",
+  "description": "A customizable new-tab extension with dynamic visuals, real-time crypto info, and key daily stats. Inspired by Momentum",
+  "action": {
+    "default_icon": "tab-icon.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}

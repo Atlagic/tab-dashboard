@@ -8,7 +8,7 @@ const fetchImageData = async () => {
 
         const data = await res.json();
 
-        const backgroundImage = data.urls.regular;
+        const backgroundImage = data.urls.full;
         const author = data.user.name;
 
         document.body.style.backgroundImage = `url(${backgroundImage})`;
@@ -77,5 +77,3 @@ navigator.geolocation.getCurrentPosition(position => {
         })
         .catch(err => console.log(err))
 })
-
-//latitude: 44.81051829376737, longitude: 20.482461205308418,
