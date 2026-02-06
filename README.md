@@ -18,3 +18,5 @@ readability, and fast loading times.
 
 This project serves as a foundation for a modern browser extension or web app and can be easily 
 extended with additional widgets, customization options, or user preferences.
+
+<img width="1720" height="871" alt="showcase" src="https://github.com/user-attachments/assets/83afe8b6-fc91-42c4-872c-fcd171bb6a5d" />
